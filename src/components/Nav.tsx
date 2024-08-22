@@ -81,11 +81,11 @@ export default function Nav() {
         transition={{ delay: 0.35 }}
         className="flex gap-12"
       >
-        <img src={avatar} alt="Hua profile picture" />
+        <img src={avatar.src} alt="Hua profile picture" />
         <motion.div className="hidden items-center gap-12 xl:flex">
-          <img src={dribble} alt="Dribble Account" />
-          <img src={twitter} alt="Twitter Account" />
-          <img src={youtube} alt="Youtube Channel" />
+          <img src={dribble.src} alt="Dribble Account" />
+          <img src={twitter.src} alt="Twitter Account" />
+          <img src={youtube.src} alt="Youtube Channel" />
         </motion.div>
       </motion.div>
       {/* Title */}
