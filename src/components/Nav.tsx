@@ -1,7 +1,7 @@
-import avatar from "/avatar.png"
-import dribble from "/dribble.png"
-import twitter from "/twitter.png"
-import youtube from "/youtube.png"
+import avatar from "../images/avatar.png"
+import dribble from "../images/dribble.png"
+import twitter from "../images/twitter.png"
+import youtube from "../images/youtube.png"
 import { motion } from "framer-motion"
 import { useState } from "react"
 
